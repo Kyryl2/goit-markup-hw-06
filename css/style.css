@@ -340,10 +340,16 @@ img {
 
 /* #endregion-secttion-first */
 /* #region-our-team-section */
+@media (min-width: 1158px) {
+  .our-team-section {
+    padding: 120px 0;
+  }
+}
 .our-team-section {
   background: #f4f4fd;
-  padding: 120px 0;
+  padding: 96px 0px;
 }
+
 .visually-hidden {
   overflow: hidden;
   position: absolute;
@@ -356,20 +362,52 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
 }
+.div {
+  display: flex;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0;
+}
 .div-container {
+  max-width: 264px;
   background: #fff;
-  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+@media (max-width: 767px) {
+  .div {
+    flex-direction: column;
+    gap: 72px;
+  }
+  .div-container {
+    max-width: 264px;
+  }
+}
+@media (min-width: 768px) {
+  .div {
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .div-container {
+    max-width: 264px;
+  }
+}
+@media (min-width: 1158px) {
+  .div {
+    flex-wrap: nowrap;
+  }
+  .div-container {
+    width: calc((100% - 72px) / 4);
+  }
 }
 .social-list {
   display: flex;
   justify-content: center;
   gap: 24px;
   padding: 0;
-  margin-left: 16px;
-  margin-right: 16px;
+  margin: 0;
 }
 .social-list-item {
   width: 40px;
@@ -390,14 +428,10 @@ img {
   background-color: #404bbf;
 }
 .div-team {
-  padding: 32px 0px;
+  padding: 32px 16px;
+  width: 264px;
 }
-.div {
-  display: flex;
-  gap: 24px;
-  padding-left: 0px;
-  padding-right: 0px;
-}
+
 .our-team-ikon {
   fill: #f4f4fd;
 }
@@ -608,6 +642,7 @@ img {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
+  margin-top: 0;
 }
 @media (max-width: 767px) {
   .list-one-item .header-third {
