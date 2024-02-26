@@ -245,12 +245,66 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office1.jpg);
+    url(../images/bckg-mob1x.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;
   max-width: 1440px;
+}
+@media (min-width: 320px) {
+  .section-button {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bckg-mob1x.jpg);
+  }
+}
+@media (min-width: 320px) and (min-resolution: 192dpi) {
+  .section-button {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bckg-mob2x.jpg);
+  }
+}
+@media (min-width: 768px) {
+  .section-button {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bckg-tab1x.jpg);
+  }
+}
+@media (min-width: 768px) and (min-resolution: 192dpi) {
+  .section-button {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bckg-tab2x.jpg);
+  }
+}
+@media (min-width: 1158px) {
+  .section-button {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bckg-deks1x.jpg);
+  }
+}
+@media (min-width: 1158px) and (min-resolution: 192dpi) {
+  .section-button {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bckg-deks2x.jpg);
+  }
 }
 @media (max-width: 767px) {
   .section-button {
@@ -274,6 +328,7 @@ img {
   margin-right: auto;
   margin-bottom: 72px;
   margin-top: 0;
+  padding: 0;
 }
 @media (min-width: 320px) {
   .section-button-title {
@@ -283,10 +338,6 @@ img {
     width: 216px;
     padding: 0;
     margin-bottom: 72px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 72px;
-    margin-top: 0;
   }
 }
 
@@ -294,17 +345,12 @@ img {
   .section-button-title {
     font-size: 56px;
     line-height: 1.07;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 36px;
-    margin-top: 0;
     width: 496px;
   }
 }
 @media (min-width: 1158px) {
   .section-button-title {
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 48px;
     margin-top: 0;
   }
