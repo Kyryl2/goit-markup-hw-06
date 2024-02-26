@@ -504,7 +504,6 @@ img {
 @media (max-width: 767px) {
   .divsecond {
     flex-direction: column;
-    gap: 48px;
     flex-wrap: nowrap;
   }
   .div-portfolio {
@@ -522,6 +521,10 @@ img {
 }
 
 @media (min-width: 1158px) {
+  .divsecond {
+    row-gap: 40px;
+  }
+
   .div-portfolio {
     width: calc((100% - 48px) / 3);
   }
