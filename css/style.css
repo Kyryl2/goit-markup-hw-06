@@ -575,6 +575,7 @@ img {
 }
 .footer-container {
   display: flex;
+  margin: 0 auto;
 }
 @media (max-width: 767px) {
   .footer-container {
@@ -588,9 +589,9 @@ img {
     flex-wrap: wrap;
     gap: 72px 24px;
     align-items: baseline;
-  }
-  .footer-section {
     padding-left: 108px;
+    margin: 0 auto;
+    max-width: 700px;
   }
 }
 @media (min-width: 1158px) {
@@ -946,17 +947,17 @@ img {
 .container {
   margin: 0 auto;
   padding: 0 16px;
-  width: 320px;
+  max-width: 320px;
 }
 
 @media (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
   }
 }
 @media (min-width: 1158px) {
   .container {
-    width: 1158px;
+    max-width: 1158px;
     padding: 0 15px;
   }
 }
