@@ -414,8 +414,9 @@ img {
   align-items: center;
 }
 .div-container {
-  max-width: 264px;
   background: #fff;
+  width: 264px;
+
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -425,26 +426,17 @@ img {
     flex-direction: column;
     gap: 72px;
   }
-  .div-container {
-    max-width: 264px;
-  }
 }
 @media (min-width: 768px) {
   .div {
     justify-content: center;
-    gap: 24px;
+    gap: 64px 24px;
     flex-wrap: wrap;
-  }
-  .div-container {
-    max-width: 264px;
   }
 }
 @media (min-width: 1158px) {
   .div {
     flex-wrap: nowrap;
-  }
-  .div-container {
-    width: calc((100% - 72px) / 4);
   }
 }
 .social-list {
