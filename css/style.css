@@ -411,6 +411,7 @@ img {
   padding-left: 0px;
   padding-right: 0px;
   margin: 0;
+  align-items: center;
 }
 .div-container {
   max-width: 264px;
