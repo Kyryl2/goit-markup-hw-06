@@ -122,7 +122,7 @@
                 <h2 class="header-second">Our Team</h2>
                 <ul class="div">
                     <li class="div-container">
-                        <img srcset="./images/1team1x.jpg, ./images/1team2x.jpg" src="./images/1team1x.jpg" alt="Mark Guerrero
+                        <img srcset="./images/1team1x.jpg 1x, ./images/1team2x.jpg 2x" src="./images/1team1x.jpg" alt="Mark Guerrero
 Product Designer" width="264" />
                         <div class="div-team">
                             <h3 class="header-third header-our-team">Mark Guerrero</h3>
@@ -157,7 +157,7 @@ Product Designer" width="264" />
                     </li>
                     <li class="div-container">
 
-                        <img srcset="./images/2team1x.jpg, ./images/2team2x.jpg" src="./images/2team1x.jpg" alt="Tom Ford
+                        <img srcset="./images/2team1x.jpg 1x, ./images/2team2x.jpg 2x" src="./images/2team1x.jpg" alt="Tom Ford
 Frontend Developer" width="264" />
                         <div class="div-team">
                             <h3 class="header-third header-our-team">Tom Ford</h3>
@@ -191,7 +191,7 @@ Frontend Developer" width="264" />
                         </div>
                     </li>
                     <li class="div-container">
-                        <img srcset="./images/3team1x.jpg, ./images/3team2x.jpg" src="./images/3team1x.jpg" alt="Camila Garcia
+                        <img srcset="./images/3team1x.jpg 1x, ./images/3team2x.jpg 2x" src="./images/3team1x.jpg" alt="Camila Garcia
 Marketing" width="264" />
                         <div class="div-team">
                             <h3 class="header-third header-our-team">Camila Garcia</h3>
@@ -225,7 +225,7 @@ Marketing" width="264" />
                         </div>
                     </li>
                     <li class="div-container">
-                        <img srcset="./images/4team1x.jpg, ./images/4team2x.jpg" src="./images/4team1x.jpg" alt="Daniel Wilson
+                        <img srcset="./images/4team1x.jpg 1x, ./images/4team2x.jpg 2x" src="./images/4team1x.jpg" alt="Daniel Wilson
 UI Designer" width="264" />
                         <div class="div-team">
                             <h3 class="header-third header-our-team">Daniel Wilson</h3>
@@ -268,10 +268,13 @@ UI Designer" width="264" />
                     <li class="div-portfolio">
                         <div class="img-box">
                             <picture>
-                                <source media="(min-width:320px)" srcset="./images/1mob1x.jpg, ./images/1mob2x.jpg">
-                                <source media="(min-width:768px )" srcset="./images/1tab1x.jpg, ./images/1tab2x.jpg">
-                                <source media="(min-width:1158px )" srcset="./images/1deks1x.jpg, ./images/1deks2x.jpg">
-                                <img src="./images/1mob1x.jpg" alt="banking app" width="360" />
+                                <source media="(min-width:1158px)"
+                                    srcset="./images/1deks1x.jpg 1x, ./images/1deks2x.jpg 2x" />
+                                <source media="(min-width:768px)"
+                                    srcset="./images/1tab1x.jpg 1x, ./images/1tab2x.jpg 2x" />
+                                <source media="(max-width:767px)"
+                                    srcset="./images/1mob1x.jpg 1x, ./images/1mob2x.jpg 2x" />
+                                <img src="./images/1deks1x.jpg" alt="banking app" width="360" />
                             </picture>
                             <p class="overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task
@@ -287,10 +290,15 @@ UI Designer" width="264" />
                     <li class="div-portfolio">
                         <div class="img-box">
                             <picture>
-                                <source media="(min-width:320px)" srcset="./images/2mob1x.jpg, ./images/2mob2x.jpg">
-                                <source media="(min-width:768px )" srcset="./images/2tab1x.jpg, ./images/2tab2x.jpg">
-                                <source media="(min-width:1158px )" srcset="./images/2deks1x.jpg, ./images/2deks2x.jpg">
-                                <img src="./images/2mob1x.jpg" alt="banking app" width="360" />
+                                <source media="(min-width:1158px )"
+                                    srcset="./images/2deks1x.jpg 1x, ./images/2deks2x.jpg 2x" />
+
+                                <source media="(min-width:768px )"
+                                    srcset="./images/2tab1x.jpg 1x, ./images/2tab2x.jpg 2x" />
+                                <source media="(max-width:767px)"
+                                    srcset="./images/2mob1x.jpg 1x, ./images/2mob2x.jpg 2x" />
+
+                                <img src="./images/2deks1x.jpg" alt="banking app" width="360" />
                             </picture>
                             <p class="overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task
@@ -306,10 +314,15 @@ UI Designer" width="264" />
                     <li class="div-portfolio">
                         <div class="img-box">
                             <picture>
-                                <source media="(min-width:320px)" srcset="./images/3mob1x.jpg, ./images/3mob2x.jpg">
-                                <source media="(min-width:768px )" srcset="./images/3tab1x.jpg, ./images/3tab2x.jpg">
-                                <source media="(min-width:1158px )" srcset="./images/3deks1x.jpg, ./images/3deks2x.jpg">
-                                <img src="./images/3mob1x.jpg" alt="banking app" width="360" />
+                                <source media="(min-width:1158px )"
+                                    srcset="./images/3deks1x.jpg 1x, ./images/3deks2x.jpg 2x" />
+
+                                <source media="(min-width:768px )"
+                                    srcset="./images/3tab1x.jpg 1x, ./images/3tab2x.jpg 2x" />
+                                <source media="(max-width:767px)"
+                                    srcset="./images/3mob1x.jpg 1x, ./images/3mob2x.jpg 2x" />
+
+                                <img src="./images/3deks1x.jpg" alt="banking app" width="360" />
                             </picture>
                             <p class="overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task
@@ -325,10 +338,14 @@ UI Designer" width="264" />
                     <li class="div-portfolio">
                         <div class="img-box">
                             <picture>
-                                <source media="(min-width:320px)" srcset="./images/4mob1x.jpg, ./images/4mob2x.jpg">
-                                <source media="(min-width:768px )" srcset="./images/4tab1x.jpg, ./images/4tab2x.jpg">
-                                <source media="(min-width:1158px )" srcset="./images/4deks1x.jpg, ./images/4deks2x.jpg">
-                                <img src="./images/4mob1x.jpg" alt="banking app" width="360" />
+                                <source media="(min-width:1158px )"
+                                    srcset="./images/4deks1x.jpg 1x, ./images/4deks2x.jpg 2x" />
+
+                                <source media="(min-width:768px )"
+                                    srcset="./images/4tab1x.jpg 1x, ./images/4tab2x.jpg 2x" />
+                                <source media="(max-width:767px)"
+                                    srcset="./images/4mob1x.jpg 1x, ./images/4mob2x.jpg 2x" />
+                                <img src="./images/4deks1x.jpg" alt="banking app" width="360" />
                             </picture>
                             <p class="overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task
@@ -344,10 +361,15 @@ UI Designer" width="264" />
                     <li class="div-portfolio">
                         <div class="img-box">
                             <picture>
-                                <source media="(min-width:320px)" srcset="./images/5mob1x.jpg, ./images/5mob2x.jpg">
-                                <source media="(min-width:768px )" srcset="./images/5tab1x.jpg, ./images/5tab2x.jpg">
-                                <source media="(min-width:1158px )" srcset="./images/5deks1x.jpg, ./images/5deks2x.jpg">
-                                <img src="./images/5mob1x.jpg" alt="banking app" width="360" />
+                                <source media="(min-width:1158px )"
+                                    srcset="./images/5deks1x.jpg 1x, ./images/5deks2x.jpg 2x" />
+                                <source media="(min-width:768px )"
+                                    srcset="./images/5tab1x.jpg 1x, ./images/5tab2x.jpg 2x" />
+                                <source media="(max-width:767px)"
+                                    srcset="./images/5mob1x.jpg 1x, ./images/5mob2x.jpg 2x" />
+
+
+                                <img src="./images/5deks1x.jpg" alt="banking app" width="360" />
                             </picture>
                             <p class="overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task
@@ -363,10 +385,14 @@ UI Designer" width="264" />
                     <li class="div-portfolio">
                         <div class="img-box">
                             <picture>
-                                <source media="(min-width:320px)" srcset="./images/6mob1x.jpg, ./images/6mob2x.jpg">
-                                <source media="(min-width:768px )" srcset="./images/6tab1x.jpg, ./images/6tab2x.jpg">
-                                <source media="(min-width:1158px )" srcset="./images/6deks1x.jpg, ./images/6deks2x.jpg">
-                                <img src="./images/6mob1x.jpg" alt="banking app" width="360" />
+                                <source media="(min-width:1158px )"
+                                    srcset="./images/6deks1x.jpg 1x, ./images/6deks2x.jpg 2x" />
+
+                                <source media="(min-width:768px )"
+                                    srcset="./images/6tab1x.jpg 1x, ./images/6tab2x.jpg 2x" />
+                                <source media="(max-width:767px)"
+                                    srcset="./images/6mob1x.jpg 1x, ./images/6mob2x.jpg 2x" />
+                                <img src="./images/6deks1x.jpg" alt="banking app" width="360" />
                             </picture>
                             <p class="overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task

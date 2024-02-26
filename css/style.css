@@ -245,7 +245,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/bckg-mob1x.jpg);
+    url("../images/bckg-mob1x.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -258,7 +258,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/bckg-mob1x.jpg);
+      url("../images/bckg-mob1x.jpg");
   }
 }
 @media (min-width: 320px) and (min-resolution: 192dpi) {
@@ -267,7 +267,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/bckg-mob2x.jpg);
+      url("../images/bckg-mob2x.jpg");
   }
 }
 @media (min-width: 768px) {
@@ -276,7 +276,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/bckg-tab1x.jpg);
+      url("../images/bckg-tab1x.jpg");
   }
 }
 @media (min-width: 768px) and (min-resolution: 192dpi) {
@@ -285,7 +285,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/bckg-tab2x.jpg);
+      url("../images/bckg-tab2x.jpg");
   }
 }
 @media (min-width: 1158px) {
@@ -294,7 +294,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/bckg-deks1x.jpg);
+      url("../images/bckg-deks1x.jpg");
   }
 }
 @media (min-width: 1158px) and (min-resolution: 192dpi) {
@@ -303,7 +303,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/bckg-deks2x.jpg);
+      url("../images/bckg-deks2x.jpg");
   }
 }
 @media (max-width: 767px) {
